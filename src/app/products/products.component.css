@@ -1,0 +1,39 @@
+.Cards {
+    max-width:300px;
+    margin: 50px;
+    padding: 5px;
+    
+  
+}
+
+.add {
+    float: right;
+    color: black;
+    background-color: red;
+    margin: 10px;
+}
+
+.search {
+    position: relative; left: 1000px;
+    margin: 5px;
+    margin-top: 30px;
+    word-spacing: 20px;
+    
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.flex-container {
+    display: flex;
+    /* display: inline-flex; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* align-self: auto; */
+    margin: 0px;
+}

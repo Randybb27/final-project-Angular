@@ -1,0 +1,19 @@
+<p>add works!</p>
+
+<form #form="ngForm" (ngSubmit)="addProduct()">
+    <label>Bat Name</label>
+    <input type="text" name="name" [(ngModel)]="currentProduct.productName">
+
+    <label>Bat Style</label>
+    <input type="text" name="style" [(ngModel)]="currentProduct.style">
+
+    <label>Bat Price</label>
+    <input type="text" name="price" [(ngModel)]="currentProduct.price">
+
+    <label>Bat Description</label>
+    <input type="text" name="description" [(ngModel)]="currentProduct.description">
+
+    <label>Image URL</label>
+    <input type="text" name="imageUrl" [(ngModel)]="currentProduct.imageUrl">
+    <button type="submit">CREATE</button>
+</form>

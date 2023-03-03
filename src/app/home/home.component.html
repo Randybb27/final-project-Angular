@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+</head>
+<!-- <app-navbar></app-navbar> -->
+<h1>Hot Batz</h1>
+<img src ="https://i.etsystatic.com/16791867/r/il/7e5fc4/2203817763/il_1588xN.2203817763_ckov.jpg" alt ="Bat Logo" class ="pic"/>
+<div class="cards2">
+<body>
+   
+    <p *ngFor="let p of products">
+        <a [routerLink] = "['/products', p.id]">{{p.productName}}<br>{{p.price}}</a>
+        <mat-card>
+            <img mat-card-image class ="Ash" src={{p.imageUrl}} alt={{p.productName}}> 
+            </mat-card>
+</body>
+</div>
+
+</html>
+

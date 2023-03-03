@@ -1,0 +1,40 @@
+<!-- <app-navbar></app-navbar> -->
+<!-- <app-root></app-root> -->
+
+<button class="add"mat-raised-button [routerLink]="['/add']">Add</button>
+<h1>Find your Bat</h1>
+<div class="search">
+<input type="text" placeholder="Search.."[(ngModel)]="searchTerm">
+<button (click)="searchProduct()" mat-raised-button>Search</button>
+ sort: 
+<button (click)="sortName()"mat-raised-button>Name</button>
+<button (click)="sortPrice()"mat-raised-button>Price</button>
+</div>
+<!-- <button mat-raised-button [routerLink]="['/add']">Add</button> -->
+
+
+<div class="Cards">
+<div class="flex-container"></div>
+<p *ngFor="let p of products">
+    <a [routerLink] = "['/products', p.id]">{{p.productName}}<br>{{p.price}}</a>
+    <mat-card>
+        <img mat-card-image class ="Maple" src={{p.imageUrl}} alt={{p.productName}}> 
+        <mat-card-actions>
+            <a routerLink="/create/{{p.id}}"></a>
+            <button mat-raised-button [routerLink]="['/products', p.id]">View</button>
+            <button mat-raised-button [routerLink]="['/edit', p.id]">Edit</button>
+            <button (click)="deleteProduct(p.id)" mat-raised-button>Delete</button>
+       
+        </mat-card-actions>
+    </mat-card>
+</p>
+
+</div>
+
+
+
+
+
+
+
+

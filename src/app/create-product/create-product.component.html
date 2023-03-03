@@ -1,0 +1,19 @@
+<h1>Create New Bat</h1>
+
+<form #form="ngForm" (ngSubmit)="createNewProduct()">
+    <label>Bat Name</label>
+    <input type="text" name="name" [(ngModel)]="newProduct.productName">
+<br>
+    <label>Bat Style</label>
+    <input type="text" name="style" [(ngModel)]="newProduct.style">
+<br>
+    <label>Bat Price</label>
+    <input type="text" name="price" [(ngModel)]="newProduct.price">
+<br>
+    <label>Bat Description</label>
+    <input type="text" name="description" [(ngModel)]="newProduct.description">
+<br>
+    <label>Image URL</label>
+    <input type="text" name="imageUrl" [(ngModel)]="newProduct.imageUrl">
+    <button type="submit">CREATE</button>
+</form>

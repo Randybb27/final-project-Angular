@@ -1,0 +1,17 @@
+img {
+    max-width: 10%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.Cards2 {
+    width: 30px;
+    height: auto;
+}
+
+.ngfor {
+    width: 30px;  
+}

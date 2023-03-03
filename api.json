@@ -1,0 +1,29 @@
+{
+  "Baseball_Bats": [
+    {
+        "id": 1,
+        "productName": "Marucci",
+        "description": "The Marucci Maple Wood Baseball Bats will have an approximate -3 length-to-weight ratio, perfect for any high school or college-aged player.",
+        "price": 79.95,
+        "imageUrl": "https://dac8r2vkxfv8c.cloudfront.net/images/products/6f14-01-22-marucci-maple-wood-baseball-bat--mcmblem-black-adult-15814-8_l.jpg",
+        "style": "Maple"
+    },
+    {
+      "id": 2,
+      "productName": "Louisville Slugger",
+      "description": "Genuine ash construction with a natural finish, the Louisville Slugger® Series 3X Ash Bat provides a large sweet spot and ideal bat speed that gets through the zone quickly.",
+      "price": 34.99,
+      "imageUrl": "https://images.dickssportinggoods.com/is/image/GolfGalaxy/16LSLAS3XSHNTRLXXWBT?qlt=70&wid=1100&fmt=webp",
+      "style": "Ash"
+    },
+    {
+      "id": 3,
+      "productName": "Mizuno",
+      "description": "Crafted for maximum strength and durability, the Mizuno® MZB-271 Classic Bamboo Bat provides players with a traditional look at the plate that’s built to last",
+      "price": 59.99,
+      "imageUrl": "https://images.dickssportinggoods.com/is/image/GolfGalaxy/19MIZABMBCLSSCMTTWBTA?qlt=70&wid=1100&fmt=webp",
+      "style": "Bamboo"
+    }
+ 
+  ]
+}
